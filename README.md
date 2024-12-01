@@ -22,11 +22,6 @@ git clone https://github.com/your-username/LegiMed.git
 cd LegiMed
 ```
 
-Install the necessary dependencies:
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 
 To start summarizing medical documents, follow these steps:
