@@ -7,7 +7,7 @@ from tqdm import tqdm
 tqdm.pandas()
 
 # Load the few-shot examples CSV
-few_shot_csv_path = '/home/ksingh/ams/few_shot.csv'
+few_shot_csv_path = 'few_shot.csv'
 few_shot_df = pd.read_csv(few_shot_csv_path)
 
 # Generate the few-shot examples for the prompt
@@ -59,10 +59,10 @@ def summarize_medical_document(document):
     return summary
 
 # Load the CSV file
-df = pd.read_csv('/home/ksingh/ams/reports_with_few_shots.csv')
+df = pd.read_csv('reports_with_few_shots.csv')
 
 # Generate summaries for the reports in the dataframe
 df['Llama3cot'] = df['REPORT'].progress_apply(summarize_medical_document)
 
 # Save the updated DataFrame back to the same file
-df.to_csv('/home/ksingh/ams/reports_with_few_shots.csv', index=False)
+df.to_csv('reports_with_few_shots.csv', index=False)
