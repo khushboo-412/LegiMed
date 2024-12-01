@@ -13,7 +13,7 @@ model = BartForConditionalGeneration.from_pretrained(model_name).to(device)
 model.eval()  # Set the model to evaluation mode
 
 # Load the CSV file
-df = pd.read_csv('/home/ksingh/ams/reports.csv')
+df = pd.read_csv('reports.csv')
 print("Loaded data with", len(df), "entries")
 
 # Define a function to generate a summary for a single text
@@ -24,7 +24,7 @@ def generate_summary(input_text):
     inputs = inputs.to(device)
     outputs = model.generate(
         inputs,
-        max_length=1024,  # Adjust this depending on the desired summary length
+        max_length=1024, 
         num_beams=4,
         no_repeat_ngram_size=2,
         early_stopping=True
@@ -32,10 +32,8 @@ def generate_summary(input_text):
     summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return summary
 
-# Apply the summary generation function to each report
 tqdm.pandas(desc="Generating summaries")  # Initialize tqdm within pandas
 df['SummaryBioBART'] = df['REPORT'].progress_apply(generate_summary)
 
 # Save the updated DataFrame back to the same file
-df.to_csv('/home/ksingh/ams/reports.csv', index=False)
-print("Updated DataFrame saved with summaries.")
+df.to_csv('reports.csv', index=False)
