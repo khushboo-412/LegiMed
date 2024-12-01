@@ -7,7 +7,7 @@ from tqdm import tqdm
 tqdm.pandas()
 
 # Load the few-shot examples CSV
-few_shot_csv_path = '/home/ksingh/ams/few_shot.csv'
+few_shot_csv_path = 'few_shot.csv'
 few_shot_df = pd.read_csv(few_shot_csv_path)
 
 # Generate the few-shot examples for the prompt
@@ -66,9 +66,9 @@ def summarize_medical_document_with_embeddings(document):
     with torch.no_grad():
         output = llama_model.generate(
             **encoding,
-            max_new_tokens=1000,  # Adjust as necessary to get complete summaries
+            max_new_tokens=1000,  
             num_return_sequences=1,
-            pad_token_id=llama_tokenizer.pad_token_id  # Use the pad_token_id explicitly
+            pad_token_id=llama_tokenizer.pad_token_id  
         )
     decoded_output = llama_tokenizer.decode(output[0], skip_special_tokens=True)
 
@@ -88,10 +88,10 @@ def summarize_medical_document_with_embeddings(document):
     return summary
 
 # Load the CSV file
-df = pd.read_csv('/home/ksingh/ams/reports_with_few_shots.csv')
+df = pd.read_csv('reports_with_few_shots.csv')
 
 # Generate summaries for the reports in the dataframe
 df['Llama3emb'] = df['REPORT'].progress_apply(summarize_medical_document_with_embeddings)
 
 # Save the updated DataFrame back to the same file
-df.to_csv('/home/ksingh/ams/reports_with_few_shots.csv', index=False)
+df.to_csv('reports_with_few_shots.csv', index=False)
