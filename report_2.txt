@@ -1,0 +1,32 @@
+Below is a snippet of patient's discharge summary and a following instruction from healthcare professional.
+Write a response that appropriately completes the instruction.
+The response should provide the accurate answer to the instruction, while being concise.
+
+[Discharge Summary Begin]
+Discharge Summary:
+
+Patient Name: [INSERT NAME]
+Gender: Male
+Age: 29
+Medical Record Number: [INSERT NUMBER]
+
+Hospital Course:
+The patient was admitted to our outpatient clinic for a delayed diagnosis of proximal hamstring injury due to a soccer injury 3 years earlier. The patient reported previous consultations with multiple healthcare professionals with no relief of symptoms. The chief complaint was daily pain underneath the buttock, worsened by physical activity, longer walking, and while sitting. Impairment in the athlete's performance with muscle weakness of the hamstrings led to severe restrictions in daily life.
+
+Physical examination revealed significant tenderness along the proximal hamstring tendons and at the ischial tuberosity with no palpable defect at the hamstring insertion at the ischial tuberosity. Active and passive range of motion (ROM) of hip and knee were unremarkable. An ischial tuberosity apophyseal fracture with a 7 × 3 centimeter (cm) large, displaced fragment was detected through plain radiographs and computed tomography (CT) of the pelvis. Magnet resonance imaging (MRI) of the pelvis showed nonunion and displacement of approximately 1 cm.
+
+Due to daily complaints, surgery was performed. Fourteen years after the initial trauma, an open excision of the large bony fragment and an open repair of the proximal hamstring tendons was performed. The patient was placed in a prone position and surgical dissection was performed. Following the excision of the fragment and debridement of local fibrous tissue, refixation of the proximal hamstring tendons was performed using 3 suture anchors at the ischial tuberosity. Postoperatively, the patient was mobilized on crutches, underwent prescribed physical therapy, and wore a hard frame hip and knee brace for 6 weeks. 
+
+Outcome:
+Ninety-four points were scored on the Perth Hamstring Assessment Tool nine months postoperatively. At 12-month postoperative follow-up the patient reported satisfaction and was able to perform normal daily activities and engage in various physical activities, including volleyball, beachvolleyball, hiking, kite-surfing, climbing, and skiing.
+
+Discharge Diagnosis:
+Proximal hamstring injury due to a soccer injury with ischial tuberosity apophyseal fracture and nonunion.
+
+Discharge Instructions:
+Follow up with the outpatient clinic as scheduled. No weight-bearing activity for six weeks following surgery. Continue crutches use for six weeks from the date of discharge. Wear the prescribed hard frame hip and knee brace for six weeks. Follow the prescribed physical therapy program.
+[Discharge Summary End]
+
+[Instruction Begin]
+What was the patient's diagnosis and treatment plan for a delayed proximal hamstring injury with an ischial tuberosity apophyseal fracture, according to the discharge summary?
+[Instruction End] 

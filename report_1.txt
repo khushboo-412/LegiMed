@@ -1,0 +1,33 @@
+Below is a snippet of patient's discharge summary and a following instruction from healthcare professional.
+Write a response that appropriately completes the instruction.
+The response should provide the accurate answer to the instruction, while being concise.
+
+[Discharge Summary Begin]
+Hospital Course:
+
+The patient, a 53-year-old woman, presented to our institution with abdominal pain and diarrhea. Abdominal examination was concerning for significant epigastric tenderness in the right upper quadrant and left lower quadrant. A contrast-enhanced computed tomography of the abdomen and pelvis demonstrated a large amount of simple-appearing free fluid within the abdomen and mucosal edema throughout the small bowel.
+
+Diagnosis:
+
+Angioedema of the small bowel, secondary to lisinopril usage, was the more likely diagnosis.
+
+Treatment:
+
+Lisinopril was discontinued, after which the patient started improving clinically with diminution of symptoms. The patient’s hypertension was treated with amlodipine.
+
+Follow-Up:
+
+At the two-week outpatient follow-up, the patient had been symptom-free and continued to do well.
+
+Final Diagnosis:
+
+Angioedema of the small bowel, secondary to lisinopril usage, with normal C1-inhibitor and serum C4 level.
+
+Discharge Summary:
+
+This 53-year-old woman was discharged from our institution after presenting with abdominal pain and diarrhea. The patient was diagnosed with angioedema of the small bowel, secondary to lisinopril usage, with normal C1-inhibitor and serum C4 level. The patient's lisinopril was discontinued, and her hypertension was treated with amlodipine. At the two-week outpatient follow-up, the patient had been symptom-free and continued to do well.
+[Discharge Summary End]
+
+[Instruction Begin]
+What was the final diagnosis and treatment for the 53-year-old female patient who presented with abdominal pain and diarrhea in the given discharge summary?
+[Instruction End] 

@@ -1,0 +1,34 @@
+Below is a snippet of patient's discharge summary and a following instruction from healthcare professional.
+Write a response that appropriately completes the instruction.
+The response should provide the accurate answer to the instruction, while being concise.
+
+[Discharge Summary Begin]
+Hospital Course:
+The 51-year-old female patient had a CT scan which revealed a 13 cm mass in the left perirenal space with multiple lymphadenopathy in the left para-aortic space. The patient underwent ultrasonography-guided biopsy of the mass which appeared to be a benign lymphoproliferative lesion. Mass excision was performed which included the left kidney and the enlarged para-aortic lymph nodes without residual masses. Pathological examination confirmed that the lesion was Castleman Disease (hyaline-vascular type) involving the perinephric and paraaortic lymph nodes. 
+
+Follow-Up:
+Regular follow-up was conducted with abdominopelvic CT scans and after a disease-free state of 52 months, multiple enlarged lymph nodes were found in follow-up CT scans. A three-dimensional conformal radiotherapy was performed which resulted in a partial response with decrease of lymph node size less than 1 cm. On follow-up CT scans 12 months after radiotherapy, the patient had no evidence of disease. 
+
+Discharge Summary:
+1. Diagnosis:
+The patient was found to have Castleman Disease (hyaline-vascular type) involving the perinephric and paraaortic lymph nodes. 
+
+2. Hospital Course:
+The patient underwent mass excision which included the left kidney and the enlarged para-aortic lymph nodes without residual masses. Follow-up was conducted regularly with abdominalpelvic CT scans.
+
+3. Follow-Up:
+There was a disease-free state after the mass excision for 52 months but multiple enlarged lymph nodes were found on follow-up CT scans. Three-dimensional conformal radiotherapy was performed resulting in a partial response with decrease of lymph node size less than 1 cm. There was no evidence of disease on follow-up CT scans 12 months after radiotherapy. 
+
+4. Medications:
+No medications were prescribed at discharge. 
+
+5. Discharge Instructions:
+None at this time. 
+
+6. Follow-Up Plan:
+The patient will have regular follow-up appointments to continue monitoring for any signs of Castleman Disease.
+[Discharge Summary End]
+
+[Instruction Begin]
+What was the patient's diagnosis, hospital course, and follow-up plan for Castleman Disease (hyaline-vascular type) involving the perinephric and paraaortic lymph nodes, as well as the outcome of 3D conformal radiotherapy, based on the given discharge summary?
+[Instruction End] 

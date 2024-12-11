@@ -1,0 +1,33 @@
+Below is a snippet of patient's discharge summary and a following instruction from healthcare professional.
+Write a response that appropriately completes the instruction.
+The response should provide the accurate answer to the instruction, while being concise.
+
+[Discharge Summary Begin]
+DISCHARGE SUMMARY:
+
+Patient: 48-year-old male
+Admitted: [date]
+Discharged: [date]
+
+Chief Complaint:
+Worsening cough and blood sputum
+
+History of Present Illness:
+The patient presented to our institute with a history of worsening cough and blood sputum. Enhanced chest computed tomography revealed a hilar mass in the right lower lobe with a diagnosis of Pulmonary Arteriovenous Malformation. The patient underwent a right pneumonectomy due to absence of right upper lobe and the abnormal pulmonary vein connection. The patient received radiation therapy and four cycles of chemotherapy. The patient was in good health with good exercise tolerance 2 years after the operation.
+
+Past Medical History:
+Not available
+
+Hospital Course:
+The patient received surgical intervention for right pneumonectomy due to absence of right upper lobe and the abnormal pulmonary vein connection. The patient received radiation therapy and four cycles of chemotherapy.
+
+Diagnosis:
+Pulmonary Arteriovenous Malformation
+
+Summary:
+The patient was admitted to our institute with worsening cough and blood sputum. The patient was diagnosed with Pulmonary Arteriovenous Malformation. The patient underwent a right pneumonectomy due to absence of right upper lobe and the abnormal pulmonary vein connection and received radiation therapy and four cycles of chemotherapy. The patient was discharged in good health with good exercise tolerance 2 years after the operation. Follow-up appointments were scheduled.
+[Discharge Summary End]
+
+[Instruction Begin]
+What was the diagnosis, surgical intervention, and post-operative treatment provided for the patient with worsening cough and blood sputum who was diagnosed with Pulmonary Arteriovenous Malformation, as summarized in the discharge summary?
+[Instruction End] 
