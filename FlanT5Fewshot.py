@@ -14,7 +14,7 @@ model = AutoModelForSeq2SeqLM.from_pretrained(model_name).to(device)
 model.eval()  # Set the model to evaluation mode
 
 # Load the few-shot examples CSV
-few_shot_csv_path = '/home/ksingh/ams/few_shot.csv'
+few_shot_csv_path = 'few_shot.csv'
 few_shot_df = pd.read_csv(few_shot_csv_path)
 
 # Generate the few-shot examples for the prompt
@@ -23,7 +23,7 @@ for _, row in few_shot_df.iterrows():
     few_shot_examples += f"Summary: {row['ChatGPT 3.5']}\n\n"
 
 # Load the main dataset
-main_csv_path = '/home/ksingh/ams/reports.csv'
+main_csv_path = 'reports.csv'
 df = pd.read_csv(main_csv_path)
 print("Loaded data with", len(df), "entries")
 
@@ -55,5 +55,5 @@ tqdm.pandas(desc="Generating summaries")
 df['SummaryFLANfew'] = df['REPORT'].progress_apply(generate_summary)
 
 # Save the updated DataFrame back to the same file
-df.to_csv('/home/ksingh/ams/reports_with_few_shots.csv', index=False)
+df.to_csv('reports_with_few_shots.csv', index=False)
 print("Updated DataFrame saved with summaries.")
