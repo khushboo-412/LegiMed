@@ -14,7 +14,7 @@ model = AutoModelForSeq2SeqLM.from_pretrained(model_name).to(device)
 model.eval()  # Set the model to evaluation mode
 
 # Load the few-shot examples CSV
-few_shot_csv_path = '/home/ksingh/ams/few_shot.csv'
+few_shot_csv_path = 'few_shot.csv'
 few_shot_df = pd.read_csv(few_shot_csv_path)
 
 # Generate the few-shot examples for the prompt
