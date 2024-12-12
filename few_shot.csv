@@ -1,0 +1,197 @@
+REPORT,ChatGPT 3.5,ChatGPT 4
+"Below is a snippet of patient's discharge summary and a following instruction from healthcare professional.
+Write a response that appropriately completes the instruction.
+The response should provide the accurate answer to the instruction, while being concise.
+
+[Discharge Summary Begin]
+Hospital Course:
+
+The patient presented with difficulty walking and experiencing ascending paresthesia from the chest down to both her feet with progressive asymmetrical weakness in her right hand and both lower extremities over a period of two months. The patient was employed at a group home, denied any constitutional or pulmonary symptoms, and had no history of TB or exposure but did receive bacille Calmette-Guérin (BCG) vaccine as a child.
+
+The patient's physical exam revealed upper and lower limb muscle strength of 5/5 bilaterally, normal tone and deep tendon reflexes, no sensory impairment, and cautious gait. An MRI of the cervical spine revealed an epidural mass at C6-T1 on the left side of the spinal canal with severe cord compression. Neurosurgery was consulted, and the patient underwent decompressive laminectomy with segmental fixation, revealing a fleshy, gray, rubbery mass found outside the dura between spinal levels C5-T1.
+
+Biopsy revealed no evidence of malignant cells, but instead showed granulomatous inflammation with rare acid-fast organisms identified on acid-fast bacilli (AFB) stain. Quantiferon TB was positive. AFB cultures showed no growth.
+
+The patient was diagnosed with multidrug-resistant (MDR) TB, treated empirically with INH, rifampin, pyrazinamide, ethambutol, moxifloxacin, and amikacin, and pyridoxine was also given. The patient responded well to treatment and could walk without a walker with a stable upright gait six months later.
+
+Summary:
+
+The patient presented with difficulty walking and ascending paresthesia from the chest down to both her feet with progressive asymmetrical weakness in her right hand and both lower extremities. An MRI revealed an epidural mass at C6-T1 on the left side of the spinal canal with severe cord compression. Biopsy revealed no evidence of malignant cells, but instead showed granulomatous inflammation with rare acid-fast organisms identified on AFB stain.
+
+The patient was diagnosed with multidrug-resistant (MDR) TB, and treatment with various medications was given. The patient responded well to treatment and could walk without a walker with a stable upright gait six months later.
+[Discharge Summary End]
+
+[Instruction Begin]
+What was the diagnosis and treatment plan for the patient with an epidural mass at C6-T1 on the left side of the spinal canal? Please provide a summary.
+[Instruction End] 
+","The patient was diagnosed with multidrug-resistant (MDR) TB and was treated empirically with INH, rifampin, pyrazinamide, ethambutol, moxifloxacin, and amikacin, and pyridoxine was also given. The patient responded well to treatment and could walk without a walker with a stable upright gait six months later.",
+"Below is a snippet of patient's discharge summary and a following instruction from healthcare professional.
+Write a response that appropriately completes the instruction.
+The response should provide the accurate answer to the instruction, while being concise.
+
+[Discharge Summary Begin]
+Hospital Course:
+The patient, a 65-year-old male with a history of chronic obstructive lung disease, diabetes mellitus, and aortic stenosis, was admitted for evaluation of chronic pain over his pacemaker (PPM) site. He had previously undergone a bioprosthetic aortic valve procedure, complicated by complete heart block requiring dual-chamber PPM implantation on the right side. The patient reported persistent discomfort at the PPM site, with an ability to flip the device around the X and Z axes, along with device migration and rotation within the pocket.
+
+Clinical Findings:
+On examination, the generator was mobile and easily rotated around the single suture, with reproducible pain during generator movement. There were no signs of active infection at the site.
+
+Hospital Course:
+The patient was taken to the electrophysiology laboratory for PPM extraction and re-implantation on the contralateral side. Intra-operatively, the device was found to be anchored to the pectoral muscle with no clear evidence of pocket infection. The generator and leads were extracted from the vasculature with simple traction. A new dual-chamber PPM system was implanted on the left side via the left axillary vein and persistent left SVC, and anchored to the pectoral muscle with a three-point fixation to prevent all movement within the pocket. The generator was first placed in a CanGaroo® envelope soaked in an antibiotic solution containing neomycin and polymyxin B.
+
+Outcome:
+Post-operatively, the patient's right-sided discomfort immediately decreased, and there has been no device movement or significant symptoms related to the left-sided PPM system over a six-week follow-up period.
+[Discharge Summary End]
+
+[Instruction Begin]
+What was the reason for admission and how was the patient's chronic pain over his pacemaker site treated according to the given discharge summary?
+[Instruction End] 
+","The reason for the patient's admission was for evaluation of chronic pain over his pacemaker site. The patient's chronic pain was treated by extraction and re-implantation of the PPM on the contralateral side, with a new dual-chamber PPM system being implanted on the left side and anchored to the pectoral muscle with a three-point fixation. The generator was first placed in a CanGaroo envelope soaked in an antibiotic solution containing neomycin and polymyxin B. The patient's right-sided discomfort immediately decreased post-operatively, with no device movement or significant symptoms related to the left-sided PPM system over a six-week follow-up period.",
+"Below is a snippet of patient's discharge summary and a following instruction from healthcare professional.
+Write a response that appropriately completes the instruction.
+The response should provide the accurate answer to the instruction, while being concise.
+
+[Discharge Summary Begin]
+Discharge Summary:
+
+Patient Name: [Redacted]
+Age: 21
+Gender: Male
+
+Chief Complaint: Neck pain and difficulty swallowing
+
+History of Present Illness:
+The patient presented to the emergency department with complaints of neck pain and difficulty swallowing. The patient had been previously diagnosed with Graves' disease four years ago but had not taken any medication for the past two years. The patient also had a history of weight loss, tremors, palpitations, and insomnia.
+
+Hospital Course:
+The patient was diagnosed with Graves' disease, and treatment with Methimazole and atenolol was initiated. The patient was planning to undergo thyroidectomy once the thyroid function tests normalized. However, during the follow-up appointment at the endocrine clinic, the patient admitted to being non-compliant with the medication for a week and reported symptoms of heat intolerance, weight loss, insomnia, palpitations, and sore throat. The patient was found to have methimazole-induced agranulocytosis, and was admitted to the hospital. The patient received three treatments of plasma exchange, and filgrastim was administered daily. The patient's WBC and neutrophil counts markedly improved and normalized.
+
+Thyroidectomy was performed to remove the enlarged thyroid gland with diffuse hyperplasia. The patient experienced hypocalcemia postoperatively and was treated with calcium carbonate. The patient was started on Levothyroxine for the treatment of postsurgical hypothyroidism.
+
+Medical Final Diagnoses:
+1. Graves' disease
+2. Methimazole-induced agranulocytosis
+
+Condition on Discharge:
+Stable condition. The patient was doing well on Levothyroxine.
+
+Follow-up:
+The patient will follow up with the endocrine clinic for continued monitoring and management.
+
+Signatures:
+[Redacted], MD (Attending physician)
+[Redacted], MD (Hospitalist)
+[Redacted], MD (Endocrinologist)
+[Discharge Summary End]
+
+[Instruction Begin]
+What is a summary of the patient's hospital course, diagnosis, and treatment for neck pain and difficulty swallowing related to Graves' disease and methimazole-induced agranulocytosis as described in the discharge summary?
+[Instruction End] 
+","The patient was diagnosed with Graves' disease and methimazole-induced agranulocytosis, and was treated with plasma exchange and filgrastim to improve WBC and neutrophil counts. Thyroidectomy was performed, and the patient received calcium carbonate for hypocalcemia postoperatively. The patient was started on Levothyroxine for postsurgical hypothyroidism, and was stable on discharge with plans for continued monitoring and management with the endocrine clinic.",
+"Below is a snippet of patient's discharge summary and a following instruction from healthcare professional.
+Write a response that appropriately completes the instruction.
+The response should provide the accurate answer to the instruction, while being concise.
+
+[Discharge Summary Begin]
+DISCHARGE SUMMARY
+
+Patient Name: [redacted]
+Gender: Male
+Age: 53 years
+Medical Record Number: [redacted]
+Admission Date: [redacted]
+Discharge Date: [redacted]
+
+Hospital Course:
+The patient presented to our outpatient services with left eye redness, pain, and swelling since 3 days due to accidental contact with an insect while farming. Examination revealed a foreign body in the marginal cornea, presumed to be an insect shell, which was successfully removed. The patient was started on empirical treatment with antibiotics and was closely monitored. However, on follow-up visit after 2 days, the patient's vision deteriorated to hand motion, and total corneal abscess with marked conjunctival congestion was revealed. After extensive counseling, a therapeutic penetrating keratoplasty was urgently performed. The host corneal button was sent for microbiological examination but was negative for any infectious etiology. Postoperatively, the patient was started on topical steroids and antibiotics. The patient recovered well and has been on regular follow-up.
+
+Discharge Diagnosis:
+Left eye corneal abscess due to accidental contact with an insect, Paederus spp.
+
+Discharge Condition:
+Stable and Improved
+
+Discharge Medications:
+None
+
+Discharge Instructions:
+1. Continue to use topical steroids and antibiotics as instructed by the healthcare provider.
+2. Keep the eye clean and avoid rubbing or touching the eye.
+3. Follow-up appointments are crucial to monitor the progress of the eye and vision recovery.
+
+Follow-up:
+The patient's vision had improved to 6/60 at 2 weeks postoperatively. The patient still has an immature cataract and is being closely monitored with regular follow-up visits.
+[Discharge Summary End]
+
+[Instruction Begin]
+Can you provide a brief summary of the hospital course and treatment plan for a patient with left eye corneal abscess due to accidental contact with an insect, as outlined in the discharge summary?
+[Instruction End] 
+","The patient presented with left eye corneal abscess due to accidental insect contact, which was managed with a therapeutic penetrating keratoplasty followed by topical steroids and antibiotics. The patient's vision improved to 6/60 at 2 weeks postoperatively and is being closely monitored for cataract progression during regular follow-up visits. The healthcare provider instructed to continue using prescribed medication, keep the eye clean, and attend follow-up appointments.",
+"Below is a snippet of patient's discharge summary and a following instruction from healthcare professional.
+Write a response that appropriately completes the instruction.
+The response should provide the accurate answer to the instruction, while being concise.
+
+[Discharge Summary Begin]
+Discharge Summary:
+
+Admission Date: [date]
+Discharge Date: [date]
+Patient Name: [name]
+Gender: Female
+Age: 7 years old
+Medical Record Number: [number]
+Diagnosis: Acute decompensated heart failure (HF) in the context of dilated cardiomyopathy (DCM)
+
+Hospital Course:
+The patient was admitted with severe HF and was treated with a combination of pharmacological agents including furosemide, ramipril, bisoprolol, spironolactone, dopamine, and milrinone. Despite the administration of these drugs, the patient's condition continued to deteriorate, and she developed cardiomegaly with pleural effusion. Given the lack of response to conventional medications, her therapy was changed to an angiotensin receptor–neprilysin inhibitor (ARNI), valsartan/sacubitril, started at a dose of 0.8 mg/kg/dose twice daily. She demonstrated significant improvement within the first 5 days of treatment, with a rapid decline in B-type natriuretic peptide (BNP) levels and increased urine output. Pleural effusion and cardiomegaly subsequently subsided. She was discharged after 17 days and followed up as an outpatient. Her LVEF improved (from 19.5% to 56.5%) over time, and her clinical status significantly improved to Modified Ross/New York Heart Association (NYHA) I. 
+
+Patient follow-up:
+The patient was given regular follow-up care in our outpatient clinic, and she did not experience any further adverse effects related to her treatment with valsartan/sacubitril. Her LVEF continued to improve, and she remained in a stable condition with Modified Ross/NYHA I status.
+
+Medications on Discharge:
+valsartan/sacubitril, bisoprolol, spironolactone, furosemide
+
+Follow-up:
+Follow-up care in our outpatient clinic.
+[Discharge Summary End]
+
+[Instruction Begin]
+What was the patient's diagnosis, pharmacological treatment, and corresponding response to therapy, as summarized in this discharge summary?
+[Instruction End] 
+","The patient was diagnosed with acute decompensated heart failure in the context of dilated cardiomyopathy. She was initially treated with a combination of pharmacological agents, but due to lack of response, her therapy was changed to valsartan/sacubitril, resulting in significant improvement in just 5 days. She was discharged and followed up as an outpatient, where her LVEF continued to improve and remained in a stable condition with Modified Ross/NYHA I status. The medications prescribed on discharge were valsartan/sacubitril, bisoprolol, spironolactone, and furosemide.",
+"Below is a snippet of patient's discharge summary and a following instruction from healthcare professional.
+Write a response that appropriately completes the instruction.
+The response should provide the accurate answer to the instruction, while being concise.
+
+[Discharge Summary Begin]
+Discharge Summary:
+
+Patient: 32-year-old male
+
+Admission date: [date]
+
+Discharge date: [date]
+
+Reason for admission: Craniectomy and duraplasty with artificial dura due to an infected compound depressed skull fracture
+
+Synopsis: 
+
+The patient was admitted for a craniectomy and duraplasty with artificial dura due to an infected compound depressed skull fracture. Eighteen months later, the patient underwent cranioplasty using methylmetacrylate for the skull defect which crossed the sagittal suture line. Following this procedure, the patient experienced leakage of cerebrospinal fluid into the subgaleal space of the scalp, leading to progressive scalp growth. Conservative treatments like direct aspiration of the CSF followed by compression with an elastic bandage and continuous lumbar drainage were not effective. The patient underwent SP shunting for persistent cranial pseudomeningocele. Two short catheters were placed into the subgaleal space and connected to a distal catheter using a Y-shaped rigid connector without any valve systems. The cranial shunt catheter was anchored at the level of the connector. 
+
+Hospital Course:
+
+Following the SP shunt, the pseudomeningocele was relieved. The patient was discharged and advised regular follow-up. However, six months later, the patient presented with scalp swelling and headaches. On examination and simple X-ray of the skull, a migrated and coiled shunt catheter was revealed under the scalp. The entire shunt catheter was removed, and the dura was covered with a subgaleal flap to prevent CSF leak. Post-operation, the subgaleal CSF collection disappeared, and the patient is currently doing well without further complications.
+
+Follow-up Care:
+
+The patient was discharged from the hospital with instructions to follow-up for routine neurosurgical appointments and ensure that there were no further episodes of cerebral spinal fluid leakage. The patient was instructed to contact the neurosurgical team immediately in case of any complications. 
+
+Attending Physician: [name]
+
+Doctor On Call: [name]
+[Discharge Summary End]
+
+[Instruction Begin]
+Can you provide a brief summary of the patient's hospital course and treatment for cranial pseudomeningocele according to the discharge summary?
+[Instruction End] 
+","The patient underwent SP shunting for persistent cranial pseudomeningocele. Following the shunt insertion, the pseudomeningocele was successfully relieved. However, six months later, the patient presented with scalp swelling and headaches due to a migrated and coiled shunt catheter under the scalp. The shunt catheter was removed, and the dura was covered with a subgaleal flap to prevent CSF leak. Post-operation, the subgaleal CSF collection disappeared, and the patient is doing well without further complications. The patient was advised to follow-up for routine neurosurgical appointments and report immediately in case of complications.",
